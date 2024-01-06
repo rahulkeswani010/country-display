@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./styles.css";
+import "./index.css";
 
 const Pagination = ({ currentPage, itemsPerPage, totalItems, paginate }) => {
   const totalPages = Math.ceil(totalItems / itemsPerPage);
